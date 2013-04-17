@@ -6,35 +6,42 @@
         version="2.1">
 
     <tlib-version>1.0</tlib-version>
-    <short-name>test</short-name>
+    <short-name>movie</short-name>
     <uri>http://pramodbhandari.com</uri>
-    <tag>
-        <description>basic tag</description>
-        <name>empty</name>
-        <tag-class>com.example.movie.common.tags.BasicTag</tag-class>
-        <body-content>empty</body-content>
-    </tag>
-    <tag>
-        <description>display tag bodys</description>
-        <name>body</name>
-        <tag-class>com.example.movie.common.tags.BodyTag</tag-class>
-        <body-content>scriptless</body-content>
-    </tag>
 
     <tag>
-        <description>modify body according to attribute</description>
-        <name>substring</name>
-        <tag-class>com.example.movie.common.tags.BodyModifyTag</tag-class>
-        <body-content>scriptless</body-content>
-        <attribute>
-            <name>start</name>
-            <required>true</required>
-        </attribute>
-        <attribute>
-            <name>end</name>
-            <required>true</required>
-        </attribute>
+        <description>Random images for background</description>
+        <name>background</name>
+        <tag-class>com.example.movie.common.tags.BackgroundTag</tag-class>
+        <body-content>empty</body-content>
     </tag>
+    <!--<tag>-->
+        <!--<description>basic tag</description>-->
+        <!--<name>empty</name>-->
+        <!--<tag-class>com.example.movie.common.tags.BasicTag</tag-class>-->
+        <!--<body-content>empty</body-content>-->
+    <!--</tag>-->
+    <!--<tag>-->
+        <!--<description>display tag bodys</description>-->
+        <!--<name>body</name>-->
+        <!--<tag-class>com.example.movie.common.tags.BodyTag</tag-class>-->
+        <!--<body-content>scriptless</body-content>-->
+    <!--</tag>-->
+
+    <!--<tag>-->
+        <!--<description>modify body according to attribute</description>-->
+        <!--<name>substring</name>-->
+        <!--<tag-class>com.example.movie.common.tags.BodyModifyTag</tag-class>-->
+        <!--<body-content>scriptless</body-content>-->
+        <!--<attribute>-->
+            <!--<name>start</name>-->
+            <!--<required>true</required>-->
+        <!--</attribute>-->
+        <!--<attribute>-->
+            <!--<name>end</name>-->
+            <!--<required>true</required>-->
+        <!--</attribute>-->
+    <!--</tag>-->
 
 
     <!-- Invoke 'Generate' action to add tags or functions -->

@@ -1,7 +1,7 @@
-package com.example.movie.app.controller;
+package com.example.movie.admin.controller;
 
-import com.example.movie.app.dao.AppDao;
-import com.example.movie.app.dao.AppDaoFactory;
+import com.example.movie.admin.dao.AppDao;
+import com.example.movie.admin.dao.AppDaoFactory;
 import com.example.movie.auth.dto.User;
 
 import javax.servlet.RequestDispatcher;
